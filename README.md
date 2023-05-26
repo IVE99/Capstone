@@ -46,6 +46,7 @@
 |개발언어|front: javascript||
 |----|back: python||
 |-|flask||
+|UI|HTML, CSS||
 
    
 ### 사용 기술 및 도구
