@@ -45,7 +45,7 @@
 |IDE|vscode||
 |개발언어|front: javascript||
 |----|back: python||
-||||
+|-|flask||
 
    
 ### 사용 기술 및 도구
