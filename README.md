@@ -35,13 +35,14 @@
 |IDE|Google Colab|학습,...|
 |개발언어|python3|자연어처리,...|
 ||||
+
 - 웹 서비스
 |구분|항목|적용 내역|
 |------|---|---|
 |OS|Windows10||
 |IDE|vscode||
-|개발언어|front: javascript|자연어처리,...|
-|----|back: python|자연어처리,...|
+|개발언어|front: javascript||
+|----|back: python||
 ||||
 
    
