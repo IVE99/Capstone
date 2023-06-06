@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*display: flex;*/
+  /*background-color: #f0f0f0;*/
+  /*background-color: #fcfcfc;*/
+  /*background-color: #f2f5f9;*/
+  /*background-image: url("../img/back-img.png");*/
+  background-color: #fcfbfa;
+  background-repeat: repeat; /* 이미지 반복 설정 */
+
+  width: 100vw;
+  overflow: hidden; /* 화면 넘침 방지 */
+}
+
+.head {
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*border-bottom: 1px solid #243832;*/
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.head-box {
+  display: flex;
+  align-items: center;
+}
+
+.head-box > i {
+  /*color: #243832;*/
+  color: red;
+}
+
+.head-title {
+  margin-left: 10px;
+  margin-right: 40px;
+  /*color: #243832;*/
+  /*color: white;*/
+}
+
+.head-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 30px;
+  text-align: center;
+}
+
+.selectbox {
+  background-color: transparent;
+  padding: 10px;
+  width: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.selectbox:focus {
+  /*outline: 2px solid gray;*/
+  outline: none;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.container1 {
+  /*background-color: yellow;*/
+  width: 55%;
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  padding: 0px 70px;
+}
+
+.title-box {
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.summary-btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
+}
+
+.summary-btn > button {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.summary-btn > i {
+  margin-left: 20px;
+}
+
+.container2 {
+  /*background-color: blue;*/
+  width: 45%;
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: flex-end;
+}
+
+.box {
+}
+
+.img-box {
+  background-color: #f8fafc;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #e0e2e6;
+}
+
+.img-box > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #e0e2e6;
+  padding: 30px;
+}
