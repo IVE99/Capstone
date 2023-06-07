@@ -57,7 +57,9 @@
 - 
 
 ### 시연 이미지
-<img width="80%" src="/Users/suyeon/Desktop/스크린샷 2023-06-07 오전 6.12.28.png"/>
+![Uploading 스크린샷 2023-06-07 오전 6.12.28.png…]()
+<img width="1552" alt="스크린샷 2023-06-07 오전 6 14 26" src="https://github.com/IVE99/Capstone/assets/80167893/e20ef0ee-3594-4159-9e1d-5427b7bdf4a9">
+
 
 ### 참고문헌
 -
