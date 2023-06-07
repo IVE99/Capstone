@@ -57,7 +57,10 @@
 - 
 
 ### 시연 이미지
-![Uploading 스크린샷 2023-06-07 오전 6.12.28.png…]()
+
+<img width="1552" alt="스크린샷 2023-06-07 오전 6 12 28" src="https://github.com/IVE99/Capstone/assets/80167893/3e42a07c-8b72-41ee-9cdd-fb836248793e">
+<img width="1552" alt="스크린샷 2023-06-07 오전 6 14 26" src="https://github.com/IVE99/Capstone/assets/80167893/c154119c-7f92-45fe-b29e-2ae63f9055d0">
+
 
 
 
