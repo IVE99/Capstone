@@ -54,7 +54,9 @@
 
 ### 훈련 데이터셋
 - AI Hub 한국어 문서요약 AI 데이터셋
-- 
+   
+<img width="1020" alt="캡디-개발환경" src="https://github.com/IVE99/Capstone/assets/80167893/938864e3-8cc3-4c51-9ce3-bf86ba85ff6a">
+
 
 ### 시연 이미지
 
