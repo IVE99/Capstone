@@ -60,7 +60,10 @@
 
 ### 시연 이미지
 
+1. 본문 입력 시 요약문 생성
 <img width="1552" alt="스크린샷 2023-06-07 오전 6 12 28" src="https://github.com/IVE99/Capstone/assets/80167893/3e42a07c-8b72-41ee-9cdd-fb836248793e">
+
+2. 인터넷 기사 한 줄 요약
 <img width="1552" alt="스크린샷 2023-06-07 오전 6 14 26" src="https://github.com/IVE99/Capstone/assets/80167893/c154119c-7f92-45fe-b29e-2ae63f9055d0">
 
 
