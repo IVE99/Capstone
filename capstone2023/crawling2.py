@@ -36,16 +36,7 @@ for i in range(10):
     #print(news.text)
     newsContent2.append(news.text)
 
-    #print(titleArr2[i])
-    #print(imgArr2[i])
-    #print(urlArr2[i])
-    #print()
 
-#for j in range(20):
-#    news = Article(urlArr2[j], language='ko')
-#    news.download()
-#    news.parse()
-    #print(news.text)
-#    newsContent2.append(news.text)
+
 
 
