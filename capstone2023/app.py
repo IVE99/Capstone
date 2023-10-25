@@ -60,9 +60,7 @@ def process_data():
     input1 = request.form['input1']
     
 
-    # 받은 데이터를 처리하고 필요한 응답을 생성합니다.
-    # 예를 들어, 데이터를 가공하거나 파일을 저장할 수 있습니다.
-    # 이 예제에서는 받은 데이터를 그대로 JSON 응답으로 반환합니다.
+    # 받은 데이터를 그대로 JSON 응답으로 반환합니다.
     response_data = {
         "input1": summarize(input1),
     }
