@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../static/css/chat.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- <div class="header-hr"><hr /></div> -->
+      <div class="head">
+        <div class="head-box" onclick="window.location.href='/'">
+          <i class="fas fa-user-astronaut"></i>
+          <div class="head-title">Summarizer</div>
+        </div>
+        <div>
+          <select id="select" class="selectbox" onchange="changeValue()">
+            <option value="본문" class="lang-option">본문</option>
+            <!-- <option value="URL" class="lang-option">URL</option>
+          <option value="문서" class="lang-option">문서</option> -->
+            <option value="뉴스" class="lang-option">뉴스</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <div class="body-container">
+      <div class="side-container">
+        <div class="side-box">
+          <div class="side-text" onclick="window.location.href='/'">
+            <i class="fas fa-home"></i> home
+          </div>
+          <div
+            id="gotoAbstractive"
+            class="side-text"
+            onclick="goToAbstractive()"
+          >
+            <i class="fas fa-server"></i> abstractive
+          </div>
+          <div id="gotoModel" class="side-text" onclick="goToModel()">
+            <i class="fas fa-code-branch"></i> model
+          </div>
+          <div class="side-text" style="color: red">
+            <i class="fas fa-user-astronaut"></i> summary
+          </div>
+          <div class="side-text" onclick="window.location.href='/article'">
+            <i class="fas fa-newspaper"></i> article
+          </div>
+          <input class="side-input" type="text" placeholder="search.." />
+        </div>
+      </div>
+      <div class="main">
+        <div class="main-container" id="main-container">
+          <div class="chat">
+            <div id="mytalk" class="mytalk" style="display: none">
+              <div class="b"></div>
+              <div id="mytalk-a" class="a"></div>
+            </div>
+            <div id="othertalk" class="othertalk" style="display: none">
+              <div class="box">
+                <div class="profile_name" style="font-weight: 800">summary</div>
+                <div class="a"></div>
+                <div id="othertalk-b" class="b" style="color: white"></div>
+              </div>
+            </div>
+          </div>
+          <!-- 밑에 form 수정 
+          <form class="reply" action="#" method="post">
+            <input
+              type="text"
+              id="reply-text"
+              name="reply-text"
+              placeholder="Write a message..."
+            />
+            <button id="submitBtn" type="submit">
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </form-->>
+          <!-- 추가 -->
+          <div class="reply">
+            <input
+              type="text"
+              id="reply-text"
+              name="reply-text"
+              placeholder="Write a message..."
+            />
+            <button id="submitBtn" type="submit">
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+          <!-- 추가 끝-->
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../static/js/chat.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/1dcf822923.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
